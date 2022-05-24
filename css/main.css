@@ -1,21 +1,30 @@
-header{
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: blueviolet;
-    
-}
-
-main {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: red;
- 
-}
+header,
+main,
 footer {
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
-    background-color: yellow;
+    background-color: blueviolet;
+    }
+    header > img {
+
+    }
+    nav {
+
+    }
+    nav > a {
+
+    }
+
+main {
+
+}
+main > a {
+
+}
+main > img {
+
+}
+footer {
+
 }
