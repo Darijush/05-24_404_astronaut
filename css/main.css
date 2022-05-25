@@ -1,28 +1,69 @@
 header,
 main,
 footer {
-    width: 800px;
-    margin: auto;
+    width: 70%;
+    margin-left: 25%;
     margin-bottom: 30px;
-    background-color: blueviolet;
+    display: inline-flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     header > img {
+        height: max-content;
+        width: max-content;
+        padding: 10px;
 
     }
     nav {
+        width: 80%;
 
     }
     nav > a {
-
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        float: right;
+        
     }
+main > div {
 
-main {
+    width: 50%;
+    margin-top: 0;
+    height: 100%;
+}
+main h1 {
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    color: grey;
 
 }
-main > a {
+main h2 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+main p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+    margin-bottom: 30px;
+    width: 65%;
+
+}
+
+main a {
+    width: 50%;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #8870AA;
+    border-radius: 25px;
+
 
 }
 main > img {
+    display: inline;
+    width: 50%;
 
 }
 footer {
