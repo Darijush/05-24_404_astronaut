@@ -27,40 +27,49 @@ footer {
         margin: 0;
     }
     main > div {
-        width: 50%;
+        width: 40%;
         margin-top: 0;
         height: 100%;
+        float: left;
     }
     main h1 {
-        font-size: 48px;
+        font-size: 50px;
         font-weight: lighter;
-        margin-bottom: 0;
+        margin: 0;
         color: grey;
+        letter-spacing: -2px;
     }
     main h2 {
-        font-size: 64px;
+        font-size: 50px;
         font-weight: bold;
-        margin-top: 0;
+        margin: 0;
+        letter-spacing: -2px;
     }
     main p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: lighter;
         color: grey;
-        margin-bottom: 30px;
-        width: 65%;
+        margin-bottom: 70px;
     }
 
     main a {
-        width: 50%;
+        display: inline-block;
         text-decoration: none;
-        padding: 10px 30px;
-        border: 2px solid #8870AA;
-        border-radius: 25px;
+        font-size: 16px;
+        line-height: 0px;
+        padding: 20px 30px;
+        border: 1px solid #8870AA;
+        border-radius: 22px;
         font-weight: bold;
+        color: #8870AA;
+    }
+    main a:nth-of-type(1){
+        background-color: #8870AA;
+        color: white;
     }
     main > img {
-        display: inline;
-        width: 50%;
+        float: right;
+        width: 60%;
 
     }
     .fa {  
