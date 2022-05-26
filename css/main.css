@@ -10,6 +10,8 @@ footer {
     }
     header > img {
         float: left;
+        max-width: 100%;
+
     }
     nav {
         float: right;
@@ -46,11 +48,14 @@ footer {
     }
     hr{
         width: 25%;
-        margin-left: 0;
-        border: 3px solid #8870AA;
-        
+        float: left;
+        background-color: #8870AA;
+        height: 4px;
+        border: none;
+        border-radius: 5px;
     }
     main p {
+        display: inline-block;
         font-size: 2.25vmin;
         font-weight: lighter;
         color: grey;
@@ -92,5 +97,8 @@ footer {
       }  
       footer > p {
           float: right;
+          font-size: 1.25vmin;
+          line-height: 1.25vmin;
+          margin-top: 21px;
       }
     
