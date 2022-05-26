@@ -1,6 +1,4 @@
-header,
-main,
-footer {
+.container {
     width: 800px;
     margin-left: calc(50% - 400px);
     margin-right: calc(50% - 400px);
@@ -8,16 +6,16 @@ footer {
     display: inline-block;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     }
-    header > img {
+    .logo {
         float: left;
         max-width: 100%;
 
     }
-    nav {
+    .menu {
         float: right;
         margin-top: 10px;
     }
-    nav > a {
+    .menu-links {
         text-decoration: none;
         font-size: 2.5vmin;
         line-height: 2.5vmin;
@@ -25,28 +23,32 @@ footer {
         float: left;   
         margin-left: 30px;
     }
-    nav > a:nth-of-type(1){
+    .menu-links:hover {
+        text-decoration: underline;
+        color: aquamarine;
+    }
+    .menu-links.first{
         margin: 0;
     }
-    main > div {
+    .left-column {
         width: 40%;
         margin-top: 0;
         height: 100%;
         float: left;
     }
-    main h1 {
+    .h1 {
         font-size: 6.25vmin;
         font-weight: lighter;
         margin: 0;
         color: grey;
     }
-    main h2 {
+    .h2 {
         font-size: 6.25vmin;
         font-weight: bold;
         margin: 0;
         letter-spacing: -2px;
     }
-    hr{
+    .line{
         width: 25%;
         float: left;
         background-color: #8870AA;
@@ -54,7 +56,7 @@ footer {
         border: none;
         border-radius: 5px;
     }
-    main p {
+    .lc-text {
         display: inline-block;
         font-size: 2.25vmin;
         font-weight: lighter;
@@ -62,7 +64,7 @@ footer {
         margin-bottom: 70px;
     }
 
-    main a {
+    .btn {
         display: inline-block;
         text-decoration: none;
         font-size: 2vmin;
@@ -73,32 +75,39 @@ footer {
         font-weight: bold;
         color: #8870AA;
     }
-    main a:nth-of-type(1){
+    .btn:hover {
+        box-shadow: 0px 2px 2px 1px grey;
+    }
+    .btn.btn-invert{
         background-color: #8870AA;
         color: white;
     }
-    main > img {
+    .right-img {
         float: right;
         max-width: 100%;
         height: auto;
 
 
     }
-    footer > div {
+    .ftr-left {
         float: left;
     }
-    .fa {  
+    .social-links {  
         text-align: center;   
         font-size: 4vmin;  
         background-color: white;  
         color: #CBCCCC;
         text-decoration: none;
         border-radius: 10px;
+        transition: all 1s;
       }  
-    footer div > a + a{
+    .social-links + a{
         margin-left: 2vmin;
     }
-      footer > p {
+    .social-links:hover {
+        color: #8870AA;
+    }
+    .copyright {
           float: right;
           font-size: 1.25vmin;
           line-height: 1.25vmin;
