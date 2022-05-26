@@ -84,21 +84,24 @@ footer {
 
 
     }
+    footer > div {
+        float: left;
+    }
     .fa {  
-        padding: 10px;  
-        text-align: center;  
-        margin: 5px 2px;  
-        font-size: 1.25vmin;  
-        width: 15px;
-        background-color: #CBCCCC;  
-        color: white;
+        text-align: center;   
+        font-size: 4vmin;  
+        background-color: white;  
+        color: #CBCCCC;
         text-decoration: none;
         border-radius: 10px;
       }  
+    footer div > a + a{
+        margin-left: 2vmin;
+    }
       footer > p {
           float: right;
           font-size: 1.25vmin;
           line-height: 1.25vmin;
-          margin-top: 21px;
+          margin:0;
       }
     
